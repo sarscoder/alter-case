@@ -1,0 +1,16 @@
+# Dependencies
+node_modules
+
+# Errors and logs
+logs
+*.log
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# Test coverage
+coverage
+
+# Build
+dist
