@@ -13,7 +13,8 @@
     "test:watch": "jest --watch",
     "lint": "eslint src/*",
     "prebuild": "rimraf dist",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",

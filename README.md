@@ -8,10 +8,25 @@ JavaScript built-in methods for transforming string cases are limited to `.toLow
 
 ## Installation
 
-Install via a package manager `npm` or `yarn`
+- Install via a package manager `npm` or `yarn`
 
 ```sh
 npm i alter-case
+```
+
+or
+
+```sh
+yarn add alter-case
+```
+
+- Install via CDN
+
+```html
+<!-- Minified Version -->
+<script src="https://unpkg.com/alter-case@0.1.0/dist/index.min.js"></script>
+<!-- Raw -->
+<script src="https://unpkg.com/alter-case@0.1.0/dist/index.umd.js"></script>
 ```
 
 ## Usage
