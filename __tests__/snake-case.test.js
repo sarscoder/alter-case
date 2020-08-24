@@ -1,4 +1,4 @@
-import snakeCase from "../src/core/snake-case";
+import {snakeCase} from "../src/core/snake-case";
 
 test("returns a string in snake_case", () => {
   const inputs = [

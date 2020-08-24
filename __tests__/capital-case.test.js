@@ -1,4 +1,4 @@
-import capitalCase from "../src/core/capital-case";
+import {capitalCase} from "../src/core/capital-case";
 
 test("returns a string in CapitalCase", () => {
   const inputs = [

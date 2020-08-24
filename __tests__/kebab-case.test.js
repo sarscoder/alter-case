@@ -1,4 +1,4 @@
-import kebabCase from "../src/core/kebab-case";
+import {kebabCase} from "../src/core/kebab-case";
 
 test("returns a string in kebab_case", () => {
   const inputs = [

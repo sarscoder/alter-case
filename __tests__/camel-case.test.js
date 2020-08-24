@@ -1,4 +1,4 @@
-import camelCase from "../src/core/camel-case";
+import { camelCase } from "../src/core/camel-case";
 
 test("returns a string in camelCase", () => {
   const inputs = [

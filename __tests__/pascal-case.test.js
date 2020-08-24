@@ -1,4 +1,4 @@
-import pascalCase from "../src/core/pascal-case";
+import {pascalCase} from "../src/core/pascal-case";
 
 test("returns a string in PascalCase", () => {
   const inputs = [

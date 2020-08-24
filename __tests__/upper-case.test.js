@@ -1,4 +1,4 @@
-import upperCase from "../src/core/upper-case";
+import {upperCase} from "../src/core/upper-case";
 
 test("returns a string in UPPERCASE", () => {
   const inputs = ["lowercase", "camelCase", "Title Case"];

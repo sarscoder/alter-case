@@ -1,4 +1,4 @@
-import constantCase from "../src/core/constant-case";
+import {constantCase} from "../src/core/constant-case";
 
 test("returns a string in PascalCase", () => {
   const inputs = [

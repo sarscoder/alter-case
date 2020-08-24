@@ -1,4 +1,4 @@
-import lowerCase from "../src/core/lower-case";
+import {lowerCase} from "../src/core/lower-case";
 
 test("returns a string in lowercase", () => {
   const inputs = ["UPPERCASE", "camelCase", "Title Case", "PascalCase"];
